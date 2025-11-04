@@ -1,0 +1,171 @@
+header {
+  display: flex; /* Makes image and text appear side by side */
+  align-items: center; /* Vertically centers the text with the image */
+  gap: 30px; /* Adds space between image and text */
+  margin: 20px;
+  padding-bottom: 50px;
+}
+
+#head-image {
+  width: 200px; /* Adjust image size */
+  height: 200px;
+  border-radius: 50%; /* Makes image round (optional) */
+  border: 1px solid grey;
+  box-shadow: 2px 2px 8px rgba(82, 80, 80, 0.726);
+}
+
+.title-box {
+  flex: 1; /* Allows text box to take remaining space */
+}
+
+#title {
+  font-size: 42px;
+  font-family: sans-serif;
+  font-weight: lighter;
+  margin: 0;
+  color: #85193c;
+}
+
+#about-me {
+  font-size: 20px;
+  margin: 10px 0 0 0;
+  color: #555;
+  font-weight: lighter;
+}
+.dashed-line {
+  display: flex; /* Makes image and text appear side by side */
+  align-items: center; /* Vertically centers the text with the image */
+  gap: 5px; /* Adds space between image and text */
+}
+.red-line {
+  width: 100px;
+  height: 3px;
+  background-color: red;
+  margin-top: 5px;
+  border-radius: 2px;
+}
+.red-line2 {
+  width: 30px;
+  height: 3px;
+  background-color: red;
+  margin-top: 5px;
+  border-radius: 2px;
+}
+.paragraph1{
+  border:1px solid grey;
+  border-radius: 10px;
+  background-image: url(/image/body-background.jpg);
+  padding-left: 240px;
+  padding-right: 240px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  margin: 20px;
+  font-size: 30px;
+  text-align: justify;
+  background-position: 20% 80%;
+  color: white;
+}
+#carrier-growth{
+  text-align: center;
+  font-size: 36px;
+  color: white;
+}
+.paragraph2{
+  border:1px solid grey;
+  border-radius: 10px;
+  background-color: #EEEEEE;
+  padding-left: 240px;
+  padding-right: 240px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin: 20px;
+  font-size: 30px;
+  text-align: justify;
+  background-position: 20% 80%;
+  color:#555;
+}
+#job-experience{
+  text-align: center;
+  font-size: 36px;
+  color:#555;
+}
+.jebox {
+  display: flex; /* Makes image and text appear side by side */
+  align-items: center; /* Vertically centers the text with the image */
+  gap: 30px; /* Adds space between image and text */
+  margin: 20px;
+}
+#ltl-image {
+  width: 200px; /* Adjust image size */
+  height: auto;  
+}
+.job-experience-box{
+  flex: 1;
+}
+.paragraph3{
+  border:1px solid grey;
+  border-radius: 10px;
+  background-color: #EEEEEE;
+  padding-left: 180px;
+  padding-right: 240px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin: 20px;
+  font-size: 30px;
+  color:#555;
+}
+#prof-experience{
+  text-align: center;
+  font-size: 36px;
+  color:#555;
+}
+.pebox {
+  display: flex; /* Makes image and text appear side by side */
+  align-items: center; /* Vertically centers the text with the image */
+  gap: 10px; /* Adds space between image and text */
+  margin: 10px;
+}
+#tac-image {
+  width: 300px; /* Adjust image size */
+  height: auto;  
+}
+.prof-experience-box{
+  flex: 1;
+}
+footer{
+  display: flex;
+  align-items: center;
+  background-color: darkslategrey;
+  padding: 20px 20px;
+  margin: 20px;
+  border-radius: 10px;
+}
+.present-address{
+  padding-left: 50px;
+  padding-right: auto;
+  padding-top: 5px;
+  line-height: 1.2;
+  color: white;
+}
+.permanent-address{
+  padding-left: 50px;
+  padding-right: 200px;
+  padding-top: 5px;
+  line-height: 1.2;
+  color: white;
+}
+.social-icons {
+  display: flex;
+  gap: 20px;
+  align-items:last baseline;
+}
+
+.social-icons img {
+  width: 35px;
+  height: 35px;
+  transition: transform 0.3s ease;
+}
+.social-icons img:hover {
+  transform: scale(1.2);
+}
+
